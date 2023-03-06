@@ -1,0 +1,54 @@
+{
+	// you can call the snippets by it prefix.
+  // Hope it usefull for you.
+  // cheersss
+
+	"php": {
+		"prefix": "php",
+		"body": [
+			"<?php ${1} ?>"
+		],
+		"description": "php tag"
+	},
+	"php echo": {
+		"prefix": "phpp",
+		"body": [
+			"<?= ${$1} ?>"
+		],
+		"description": "php echo"
+	},
+	"php post": {
+		"prefix": "post",
+		"body": [
+			"$$_POST['${1:va}'];"
+		],
+		"description": "php post"
+	},
+	"php if": {
+		"prefix": "if",
+		"body": [
+			"if(${1}){",
+			"${2}",
+			"}else{",
+			"${3}",
+			"}"
+		],
+		"description": "php if"
+	},
+	"php var_dump": {
+		"prefix": "vd",
+		"body": [
+			"var_dump($${1});"
+		],
+		"description": "php var_dump"
+	},
+	"php print_r": {
+		"prefix": "pr",
+		"body": [
+			"echo \"<pre>\";",
+			"print_r($${1});",
+			"echo \"</pre>\";"
+		],
+		"description": "php print_r"
+	}
+}
